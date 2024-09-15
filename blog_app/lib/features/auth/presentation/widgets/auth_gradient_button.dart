@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class AuthGradientButton extends StatelessWidget {
   final String buttonText;
   final VoidCallback onPressed;
-  AuthGradientButton({
+  const AuthGradientButton({
     super.key,
     required this.buttonText,
     required this.onPressed,
